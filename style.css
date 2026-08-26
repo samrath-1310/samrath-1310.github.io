@@ -73,3 +73,13 @@ footer {
     border: 4px solid white;
     margin-bottom: 15px;
 }
+.gallery {
+    text-align: center;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 8px;
+}

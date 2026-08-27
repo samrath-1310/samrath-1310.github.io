@@ -1429,50 +1429,83 @@ var R0=Object.defineProperty;var O0=(o,g,r)=>g in o?R0(o,g,{enumerable:!0,config
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
 <style>
 	body {
-		font-family: Arial, sans-serif;
-		color: #333333;
-		background-color: #f7f9fc;
+		font-family: Quicksand;
+	    font-size: 20px;
+	    color: #333333;
+	    background-color: #ffffff;
 	}
 	
-	h1 {
-	    color: #17365d;
-	    padding: 10px;
+	table {
+	    font-family: Quicksand;
+	    color: #333333;
+	    border-collapse: collapse;
 	}
 	
+	.light-text-row {
+	    color: #ADADAD;
+	}
+	
+	/* Course title */
+	h1#home {
+	    color: #1f4e79;
+	    font-weight: bold;
+	    margin-bottom: 15px;
+	}
+	
+	/* Subtitle */
 	h3 {
-	    color: #2f5597;
+	    color: #555555;
 	}
 	
+	/* Navigation links */
 	a {
 	    color: #1769aa;
 	    text-decoration: none;
 	}
 	
 	a:hover {
+	    color: #e67e22;
 	    text-decoration: underline;
 	}
 	
+	/* Section headings */
+	b[id] {
+	    color: #1f4e79;
+	}
+	
+	/* Horizontal lines */
 	hr {
 	    border: 0;
-	    border-top: 2px solid #2f5597;
+	    border-top: 2px solid #1f4e79;
 	}
 	
-	table {
-	    border-collapse: collapse;
+	/* Schedule tables */
+	table.tg {
+	    border: 1px solid #cccccc;
+	    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 	}
 	
-	td {
-	    padding: 10px;
-	}
-	
-	th {
-	    background-color: #2f5597;
+	/* Table headings */
+	table.tg th {
+	    background-color: #1f4e79;
 	    color: white;
 	    padding: 10px;
 	}
 	
-	tr:hover {
-	    background-color: #eef4fb;
+	/* Table cells */
+	table.tg td {
+	    padding: 8px;
+	    border: 1px solid #dddddd;
+	}
+	
+	/* Alternate table rows */
+	table.tg tr:nth-child(even) td {
+	    background-color: #f5f8fb;
+	}
+	
+	/* Slight hover effect */
+	table.tg tr:hover td {
+	    background-color: #eaf2f8;
 	}
 
 </style>
